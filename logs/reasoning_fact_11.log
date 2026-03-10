@@ -1,0 +1,154 @@
+<object-stream>
+<org.drools.kiesession.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>1</factId>
+      <objectToString>ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Rozpoznanie gorączki [1]</activationId>
+      <rule>Rozpoznanie gorączki</rule>
+      <declarations>$p=ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Podejrzenie wstrząsu kardiogennego [1]</activationId>
+      <rule>Podejrzenie wstrząsu kardiogennego</rule>
+      <declarations>$p=ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: true
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Podejrzenie wstrząsu kardiogennego [1]</activationId>
+      <rule>Podejrzenie wstrząsu kardiogennego</rule>
+      <declarations>$p=ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: true
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Podejrzenie wstrząsu kardiogennego [1]</activationId>
+      <rule>Podejrzenie wstrząsu kardiogennego</rule>
+      <declarations>$p=ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: false
+⮕ Diagnoza: Podejrzenie wstrząsu kardiogennego
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+Reguła &apos;Podejrzenie wstrząsu kardiogennego&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Rozpoznanie gorączki [1]</activationId>
+      <rule>Rozpoznanie gorączki</rule>
+      <declarations>$p=ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: false
+⮕ Diagnoza: Podejrzenie wstrząsu kardiogennego
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+Reguła &apos;Podejrzenie wstrząsu kardiogennego&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Rozpoznanie gorączki [1]</activationId>
+      <rule>Rozpoznanie gorączki</rule>
+      <declarations>$p=ID pacjenta: 11
+Imię i nazwisko oraz płeć: Maria Lewandowska (FEMALE)
+⮕ Zdrowy: false
+⮕ Diagnoza: Gorączka!
+⮕ Parametry życiowe: Temp=38,5°C, Sat=91.0%, HR=110, RR=?, BP=85, Cough=false, ChestPain=true, Dyspnea=?
+Referencja obiektu: 21c7208d
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+Reguła &apos;Podejrzenie wstrząsu kardiogennego&apos; uruchomiona!
+Reguła &apos;Rozpoznanie gorączki&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+  </events>
+</org.drools.kiesession.audit.WorkingMemoryLog>
+</object-stream>

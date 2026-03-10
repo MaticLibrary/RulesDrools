@@ -1,0 +1,68 @@
+package pl.edu.atar.clinic.rules.triage.basic
+
+import pl.edu.atar.clinic.Patient;
+
+// Reguła domniemania zdrowia (wysoki priorytet)
+rule "Domniemanie bycia zdrowym"
+    dialect "java"
+    salience 1000
+    when
+        $p : Patient()
+    then
+        $p.setHealthy(true);
+        $p.appendLogger("Reguła 'Domniemanie bycia zdrowym' uruchomiona!");
+end
+
+// Reguła gorączki
+rule "Rozpoznanie gorączki"
+    dialect "java"
+    salience 200
+    when
+        $p : Patient(temperature > 37.3)
+    then
+        $p.setHealthy(false);
+        $p.setDiagnosis("Gorączka!");
+        $p.appendLogger("Reguła 'Rozpoznanie gorączki' uruchomiona!");
+end
+
+// Reguła: Podejrzenie zapalenia płuc
+rule "Podejrzenie zapalenia płuc"
+    dialect "java"
+    salience 300
+    when
+        $p : Patient(temperature > 38.0, saturation < 95.0, heartRate > 100, cough == true)
+    then
+        $p.setHealthy(false);
+        $p.setDiagnosis("Podejrzenie zapalenia płuc");
+        $p.appendLogger("Reguła 'Podejrzenie zapalenia płuc' uruchomiona!");
+end
+
+// Reguła: Podejrzenie wstrząsu septycznego
+rule "Podejrzenie wstrząsu septycznego"
+    dialect "java"
+    salience 300
+    when
+        $p : Patient((temperature > 38.0 || temperature < 36.0),
+                     saturation < 92.0,
+                     heartRate > 90,
+                     respiratoryRate > 20)
+    then
+        $p.setHealthy(false);
+        $p.setDiagnosis("Podejrzenie wstrząsu septycznego");
+        $p.appendLogger("Reguła 'Podejrzenie wstrząsu septycznego' uruchomiona!");
+end
+
+// Reguła: Podejrzenie wstrząsu kardiogennego
+rule "Podejrzenie wstrząsu kardiogennego"
+    dialect "java"
+    salience 300
+    when
+        $p : Patient(systolicPressure < 90,
+                     saturation < 92.0,
+                     (heartRate > 100 || heartRate < 50),
+                     (chestPain == true || dyspnea == true))
+    then
+        $p.setHealthy(false);
+        $p.setDiagnosis("Podejrzenie wstrząsu kardiogennego");
+        $p.appendLogger("Reguła 'Podejrzenie wstrząsu kardiogennego' uruchomiona!");
+end

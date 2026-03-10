@@ -1,0 +1,106 @@
+<object-stream>
+<org.drools.kiesession.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>1</factId>
+      <objectToString>ID pacjenta: 7
+Imię i nazwisko oraz płeć: Katarzyna Nowicka (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=94.0%, HR=110, RR=?, BP=?, Cough=false, ChestPain=?, Dyspnea=?
+Referencja obiektu: 3659d7b1
+</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Rozpoznanie gorączki [1]</activationId>
+      <rule>Rozpoznanie gorączki</rule>
+      <declarations>$p=ID pacjenta: 7
+Imię i nazwisko oraz płeć: Katarzyna Nowicka (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=94.0%, HR=110, RR=?, BP=?, Cough=false, ChestPain=?, Dyspnea=?
+Referencja obiektu: 3659d7b1
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 7
+Imię i nazwisko oraz płeć: Katarzyna Nowicka (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=94.0%, HR=110, RR=?, BP=?, Cough=false, ChestPain=?, Dyspnea=?
+Referencja obiektu: 3659d7b1
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 7
+Imię i nazwisko oraz płeć: Katarzyna Nowicka (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=94.0%, HR=110, RR=?, BP=?, Cough=false, ChestPain=?, Dyspnea=?
+Referencja obiektu: 3659d7b1
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 7
+Imię i nazwisko oraz płeć: Katarzyna Nowicka (FEMALE)
+⮕ Zdrowy: true
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=94.0%, HR=110, RR=?, BP=?, Cough=false, ChestPain=?, Dyspnea=?
+Referencja obiektu: 3659d7b1
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Rozpoznanie gorączki [1]</activationId>
+      <rule>Rozpoznanie gorączki</rule>
+      <declarations>$p=ID pacjenta: 7
+Imię i nazwisko oraz płeć: Katarzyna Nowicka (FEMALE)
+⮕ Zdrowy: true
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=94.0%, HR=110, RR=?, BP=?, Cough=false, ChestPain=?, Dyspnea=?
+Referencja obiektu: 3659d7b1
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Rozpoznanie gorączki [1]</activationId>
+      <rule>Rozpoznanie gorączki</rule>
+      <declarations>$p=ID pacjenta: 7
+Imię i nazwisko oraz płeć: Katarzyna Nowicka (FEMALE)
+⮕ Zdrowy: false
+⮕ Diagnoza: Gorączka!
+⮕ Parametry życiowe: Temp=39,0°C, Sat=94.0%, HR=110, RR=?, BP=?, Cough=false, ChestPain=?, Dyspnea=?
+Referencja obiektu: 3659d7b1
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+Reguła &apos;Rozpoznanie gorączki&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+  </events>
+</org.drools.kiesession.audit.WorkingMemoryLog>
+</object-stream>

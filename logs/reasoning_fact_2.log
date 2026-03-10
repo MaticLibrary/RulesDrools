@@ -1,0 +1,154 @@
+<object-stream>
+<org.drools.kiesession.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>1</factId>
+      <objectToString>ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Rozpoznanie gorączki [1]</activationId>
+      <rule>Rozpoznanie gorączki</rule>
+      <declarations>$p=ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Podejrzenie wstrząsu septycznego [1]</activationId>
+      <rule>Podejrzenie wstrząsu septycznego</rule>
+      <declarations>$p=ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: true
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Podejrzenie wstrząsu septycznego [1]</activationId>
+      <rule>Podejrzenie wstrząsu septycznego</rule>
+      <declarations>$p=ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: true
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Podejrzenie wstrząsu septycznego [1]</activationId>
+      <rule>Podejrzenie wstrząsu septycznego</rule>
+      <declarations>$p=ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: false
+⮕ Diagnoza: Podejrzenie wstrząsu septycznego
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+Reguła &apos;Podejrzenie wstrząsu septycznego&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Rozpoznanie gorączki [1]</activationId>
+      <rule>Rozpoznanie gorączki</rule>
+      <declarations>$p=ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: false
+⮕ Diagnoza: Podejrzenie wstrząsu septycznego
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+Reguła &apos;Podejrzenie wstrząsu septycznego&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Rozpoznanie gorączki [1]</activationId>
+      <rule>Rozpoznanie gorączki</rule>
+      <declarations>$p=ID pacjenta: 2
+Imię i nazwisko oraz płeć: Jacek Nowak (MALE)
+⮕ Zdrowy: false
+⮕ Diagnoza: Gorączka!
+⮕ Parametry życiowe: Temp=39,0°C, Sat=90.0%, HR=120, RR=25, BP=?, Cough=?, ChestPain=?, Dyspnea=?
+Referencja obiektu: 6ea04618
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+Reguła &apos;Podejrzenie wstrząsu septycznego&apos; uruchomiona!
+Reguła &apos;Rozpoznanie gorączki&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+  </events>
+</org.drools.kiesession.audit.WorkingMemoryLog>
+</object-stream>

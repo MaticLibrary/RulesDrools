@@ -1,0 +1,60 @@
+<object-stream>
+<org.drools.kiesession.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>1</factId>
+      <objectToString>ID pacjenta: 9
+Imię i nazwisko oraz płeć: Magdalena Kamińska (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=36,7°C, Sat=91.0%, HR=80, RR=?, BP=85, Cough=?, ChestPain=true, Dyspnea=?
+Referencja obiektu: 7afb1741
+</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 9
+Imię i nazwisko oraz płeć: Magdalena Kamińska (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=36,7°C, Sat=91.0%, HR=80, RR=?, BP=85, Cough=?, ChestPain=true, Dyspnea=?
+Referencja obiektu: 7afb1741
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 9
+Imię i nazwisko oraz płeć: Magdalena Kamińska (FEMALE)
+⮕ Zdrowy: NIEZNANY
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=36,7°C, Sat=91.0%, HR=80, RR=?, BP=85, Cough=?, ChestPain=true, Dyspnea=?
+Referencja obiektu: 7afb1741
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Domniemanie bycia zdrowym [1]</activationId>
+      <rule>Domniemanie bycia zdrowym</rule>
+      <declarations>$p=ID pacjenta: 9
+Imię i nazwisko oraz płeć: Magdalena Kamińska (FEMALE)
+⮕ Zdrowy: true
+⮕ Diagnoza: Brak
+⮕ Parametry życiowe: Temp=36,7°C, Sat=91.0%, HR=80, RR=?, BP=85, Cough=?, ChestPain=true, Dyspnea=?
+Referencja obiektu: 7afb1741
+
+REGULY URUCHOMIONE W NASTĘPUJĄCEJ KOLEJNOŚCI:
+Reguła &apos;Domniemanie bycia zdrowym&apos; uruchomiona!
+</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+  </events>
+</org.drools.kiesession.audit.WorkingMemoryLog>
+</object-stream>
